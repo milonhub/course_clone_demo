@@ -1,0 +1,135 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    background-color: #64646B;
+}
+.header{
+    width: 100%;
+    height: 50px;
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+
+.logo{
+    width: 120px;
+    height: 40px;
+    position: absolute;
+    left: 3%;
+}
+
+.logo img{
+  width: 100%;
+  height: 100%;
+}
+
+.logoright{
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    right: 5%;
+}
+
+.logoright img{
+    width: 100%;
+    height: 100%;
+   
+}
+
+.header ul li{
+    list-style-type: none;
+    float: left;
+    
+}
+
+
+.container{
+    display:flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.milestoneImage{
+    flex-basis: 55%;
+    height: 400px;
+}
+
+.milestoneImage img{
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+   
+    
+}
+
+.right{
+    flex-basis: 35%;
+    flex-direction: column;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    box-sizing: content-box;
+    
+}
+.milestonelist{
+    width: 100%;
+    height: 350px;
+    background-color: black;
+    overflow: auto;
+    color: white;
+}
+
+.doneList{
+    width: 100%;
+    height: 350px;
+    background-color: aquamarine;
+}
+
+
+.mlist{
+    display: flex;
+    margin-top: 0px;
+    margin-bottom: 15px;
+    padding-top: 0;
+    padding-bottom: 0;
+    cursor: pointer;
+    
+}
+
+/* .mlist:hover {
+    font-size: 20px;
+    color: white;
+    box-shadow: inset 0.5px;
+} */
+
+.hidden_panel{
+    max-height: 0px;
+    overflow: hidden;
+    -webkit-transition: max-height 0.8s;
+    -moz-transition: max-height 0.8s;
+    transition: max-height 0.8s;
+}
+
+.show{
+    max-height: 400px;
+   
+}
+
+.checkbox {
+ margin-right: 5px;
+ float:left
+ 
+}
+.active {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.flex{
+    display: flex;
+}
